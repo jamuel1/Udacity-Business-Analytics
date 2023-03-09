@@ -1,0 +1,55 @@
+
+/* Query 1 - used to determine most purchased genres based on unit sales
+
+SELECT
+  g.Name AS genre_type,
+  COUNT(*) AS num_purchases
+FROM Genre g
+JOIN Track t
+  ON g.GenreId = t.GenreId
+JOIN InvoiceLine il
+  ON t.TrackId = il.TrackId
+GROUP BY 1
+ORDER BY 2 DESC;
+
+/* Query 2 - used to determine which genres have the most songs longer than the average song length */
+
+SELECT
+  g.Name AS song_genre,
+  COUNT(*) AS num_songs
+FROM Genre g
+JOIN Track t
+  ON g.GenreId = t.GenreId
+  WHERE Milliseconds > (SELECT AVG(Milliseconds) FROM Track) 
+GROUP BY 1
+ORDER BY 2 DESC;
+
+/* Query 3 - Used to determine which sales agent performed the best since hiring date, across Number of Sales & Total Sales Value */
+
+SELECT
+	strftime('%Y-%m', e.hiredate) Hire_Date,
+	e.firstname ||' ' ||e.lastname rep_name,
+	COUNT(i.InvoiceId) number_of_sales,
+	ROUND(SUM(i.total), 2)  total_sales_value
+FROM employee e
+JOIN customer c
+ON e.EmployeeId = c.SupportRepId
+JOIN invoice i
+ON i.CustomerId = c.CustomerId
+WHERE e.Title = 'Sales Support Agent'
+GROUP BY 1, 2
+ORDER BY 4 DESC;
+
+/* Query 4 - Used to determine number of individual invoice lines per country to better understand where sales are coming from */
+
+SELECT  i.billingcountry country, COUNT(*) num_sales
+FROM album a 
+JOIN track t
+ON a.albumid = t.albumid
+JOIN invoiceline il
+ON t.trackid = il.trackid 
+JOIN invoice i
+ON il.invoiceid = i.invoiceid 
+GROUP BY 1
+ORDER BY 2 DESC
+LIMIT 10;
