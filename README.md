@@ -5,7 +5,7 @@ Technologies Used: Excel, SQL, Tableau
 This is my work for the Udacity Business Analytics Nanodegree Program - (https://www.udacity.com/course/business-analytics-nanodegree--nd098)
 
 
-In this program I was exposed to the critical thinking aspect of working with data. From questioning, drawing, and communicating insights, I was able to draw interesting conclusions from datasets.
+In this program I was exposed to the the world of data from a business analyst perspective. From questioning, drawing, and communicating insights, I was able to draw interesting conclusions from datasets.
 
 Project 1: Analyzed NYSE Data with Excel - Built a working dashboard to analyze data from over 500 NYSE listed companies as well as a forecast model for AAL based on 3 possible scenarios.
 
