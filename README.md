@@ -14,8 +14,8 @@ Project 2: Learned to create and run queries for a digital Music Store database 
 
 Project 3: Built visualizations using U.S. Census data in Tableau to identify patterns and trends amongst the US population in 2015. Using Tableau, I analyzed the breakdown of the top 10 states with the highest median rate of self-employment, and found out which counties they resided in. I also determined the average transportation time was lowest in Alaska. By using the dropdown menus near the map, you can select a specific state to focus highlight in the dashboard. \\ Dataset Used: US Census Demographic Data 2015 (https://www.kaggle.com/datasets/muonneutrino/us-census-demographic-data)
 
-  Project 3 - [Insight 1: Which states and counties have the highest median income rate?](https://public.tableau.com/views/StatesCountieswithHighestofSelfEMployed/Dashboard1?:lan guage=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-
+  Project 3 - [Insight 1: Which states and counties have the highest median income rate?][(https://public.tableau.com/views/StatesCountieswithHighestofSelfEMployed/Dashboard1?:lan guage=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+](url)
 
 Feel free to check out the individual projects and message me - I'd love to hear your thoughts!
 
