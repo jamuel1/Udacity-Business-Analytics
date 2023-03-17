@@ -17,8 +17,11 @@ Project 3: Built visualizations using U.S. Census data in Tableau to identify pa
   Project 3 - Insight 1: Which states and counties have the highest self-employment rate?[(https://public.tableau.com/views/StatesCountieswithHighestofSelfEMployed/Dashboard1?:lan guage=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 ](url)
 
-Project 3 - Insight 2: Which US region and states have the highest median income rate?
+P3: Insight 2: Which US region and states have the highest median income rate?
 [https://public.tableau.com/views/MedianIncomebyRegion/MedianIncomeRankings?:language= en-US&:display_count=n&:origin=viz_share_link](url)
+
+P3: Insight 3: What is the breakdown of transportation preferences for each state? Did this play into the average commute time for the given state?
+[https://public.tableau.com/views/ShortestCommuteTimesMethodsofTransportation/Dashboar d3?:language=en-US&:display_count=n&:origin=viz_share_link](url)
 
 Feel free to check out the individual projects and message me - I'd love to hear your thoughts!
 
